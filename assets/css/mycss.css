@@ -1,0 +1,43 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    padding: 0;
+}
+
+#logout {
+    position: absolute;
+    right: 0;
+}
+
+.nav-item {
+    margin-right: 2px;
+}
+
+.strip {
+    background-color: turquoise;
+    text-align: center;
+    padding: 0;
+}
+
+.element-center {
+    margin: 1px auto;
+}
+
+.chart-height {
+    height: 35vw;
+}
+
+.allow-overflow {
+    overflow: auto;
+}
+
+.m-t {
+    margin-top: 16px !important;
+}
+
+.m-b {
+    margin-bottom: 4px !important;
+}

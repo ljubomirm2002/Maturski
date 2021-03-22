@@ -1,0 +1,50 @@
+<script>
+    $(document).ready(function() {
+        $("#modal-submit").click(function() {
+            $("#modal").modal("hide");
+        });
+    });
+</script>
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link active" href="index.php">HOME</a>
+    </li>
+</ul>
+<div class="container col-6 col-6-sm m-t">
+    <div class="container col-12 strip">
+        <h1 class="text-center">Registration</h1>
+    </div>
+    <form id='form'>
+        <div class="form-group text-center">
+            <p class="text-center">Username<b class="text-danger">*</b></p>
+            <input type="text" placeholder="Username" class='form-control col-3 mx-auto' name="username" id="username" required>
+        </div>
+        <div class="form-group text-center">
+            <p class='text-center'>Password<b class="text-danger">*</b></p>
+            <input type="password" placeholder="Password" class='form-control col-3 mx-auto' name="password" id="password" required>
+        </div>
+        <div class="form-group text-center">
+            <p class='text-center'>Confirm password<b class="text-danger">*</b></p>
+            <input type="password" placeholder="Confirm password" class='form-control col-3 mx-auto' name="confirm" id="confirm" required>
+        </div>
+        <div class="form-group text-center">
+            <p class="text-center">Name<b class="text-danger">*</b></p>
+            <input type="text" placeholder="Name" class='form-control col-3 mx-auto' name="name" id="name" required>
+        </div>
+        <div class="form-group text-center">
+            <p class="text-center">Email<b class="text-danger">*</b></p>
+            <input type="email" placeholder="Email" class='form-control col-5 mx-auto' name="email" id="email" required>
+        </div>
+        <div class="form-group text-center">
+            <p class="text-center">Address<b class="text-danger">*</b></p>
+            <input type="text" placeholder="Address" class='form-control col-5 mx-auto' name="address" id="address" required>
+        </div>
+        <div class="form-group text-center">
+            <p class="text-center">Biography</p>
+            <textarea placeholder="Biography" name="biography" id="biography" class='mx-auto form-control col-7'></textarea>
+        </div>
+        <div class="form-group text-center">
+            <input type="button" class='m-b btn btn-primary' id="btnSubmit" name='btnSubmit' value="Register" onclick='register()'>
+        </div>
+    </form>
+</div>

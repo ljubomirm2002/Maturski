@@ -1,0 +1,9 @@
+<script>
+    $(document).ready(function() {
+        $("#modal-submit1").click(function() {
+            window.location = 'handlers/category/delete-category.php?id=' + $("#inputId").val();
+        });
+    });
+</script>
+<button class='btn btn-success' onclick="goTo('pages/category/new-category')">New Category</button>
+<input type='hidden' id='inputId'>
